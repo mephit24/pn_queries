@@ -25,6 +25,7 @@ def get_list_oo(pattern_search):
     finally:
         db_conn.close()
 
+
 def get_list_services():
     try:
         db_conn = psycopg2.connect(database="PN_QUERIES", user="pn_admin", password="12345", host="localhost", port=5432)
@@ -39,7 +40,6 @@ def get_list_services():
     finally:
         db_conn.close()
         
-print(get_list_services())
       
 def get_list_tgusers():
     try:
