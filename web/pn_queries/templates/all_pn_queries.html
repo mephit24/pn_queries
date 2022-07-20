@@ -1,0 +1,9 @@
+<html>
+    <body>
+        {% for query in all_pn_queries %}
+        
+        {{ query.id_oo }} {{ query.date_create }} {{ query.text }} {{ query.active }} <a href="static\{{ query.photo_link }}">Фото</a> <br>
+        
+        {% endfor %}
+    </body>
+</html>

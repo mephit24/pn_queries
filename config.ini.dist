@@ -1,0 +1,11 @@
+[TELEGRAM_BOT]
+ADMINS=#
+BOT_TOKEN=#
+ip=localhost
+
+[POSTGRES_DB]
+database=PN_QUERIES
+port=5432
+user=#
+password=#
+host=localhost

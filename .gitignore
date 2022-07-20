@@ -1,6 +1,6 @@
 env
 __pycache__
 config.ini
-test.py
 photos/*
-modules
+start.cmd
+.vscode
